@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { notFoundBackstyles } from "./styles/background";
 
 const NotFound = () => {
     return(
-        <div className='h-screen flex flex-col justify-center items-center bg-slate-50 text-gry-900'>
+        <div
+            style = {notFoundBackstyles}
+            className='h-screen flex flex-col justify-center items-center bg-slate-50 text-gry-900'>
             <h1 className = 'text-8xl font-bold'>404</h1>
             <p className= 'test-4xl font-medium'>Page Not Found</p>
             <Link href = "/" className='mt-4 text-xl text-blue-600 hover:underline'>
