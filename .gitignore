@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+#garbage files
+/garbadge_box/
+
 # production
 /build
 
